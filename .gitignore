@@ -143,7 +143,6 @@ world_the_end
 # not update files
 banned-ips.json
 banned-players.json
-commands.yml
 eula.txt
 help.yml
 LICENSE

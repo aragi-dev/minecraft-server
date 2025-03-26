@@ -1,0 +1,240 @@
+prefix: "&8&l[&6&lCoins&8&l>>&r "
+msg: "&8[&2+&8] &8%money%" # %money% is variable
+format: "00.0#" # Default "00.0#"
+
+sound:
+  enable: true
+  sound: ENTITY_PLAYER_LEVELUP # From this site https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+  pitch: 2 # values from the 0 to 2
+  volume: 1 # values from the 0 to 1
+
+##############################################################################
+# Entity type of the Spigot-API in this link                                 #
+# https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html #
+##############################################################################
+money-mobs:
+  ALLAY:
+    min: 1
+    max: 5
+  BAT:
+    min: 1
+    max: 5
+  BEE:
+    min: 1
+    max: 5
+  BLAZE:
+    min: 3
+    max: 10
+  CAVE_SPIDER:
+    min: 3
+    max: 10
+  CHICKEN:
+    min: 1
+    max: 5
+  COD:
+    min: 1
+    max: 5
+  COW:
+    min: 1
+    max: 5
+  CREEPER:
+    min: 3
+    max: 12
+  DOLPHIN:
+    min: 1
+    max: 5
+  DONKEY:
+    min: 1
+    max: 5
+  DROWNED:
+    min: 3
+    max: 10
+  ELDER_GUARDIAN:
+    min: 5
+    max: 15
+  ENDER_CRYSTAL:
+    min: 5
+    max: 15
+  ENDERMAN:
+    min: 3
+    max: 10
+  ENDERMITE:
+    min: 2
+    max: 6
+  EVOKER:
+    min: 5
+    max: 15
+  FOX:
+    min: 1
+    max: 5
+  FROG:
+    min: 1
+    max: 5
+  GHAST:
+    min: 4
+    max: 12
+  GLOW_SQUID:
+    min: 1
+    max: 5
+  GOAT:
+    min: 1
+    max: 5
+  GUARDIAN:
+    min: 3
+    max: 10
+  HOGLIN:
+    min: 4
+    max: 12
+  HORSE:
+    min: 1
+    max: 5
+  HUSK:
+    min: 3
+    max: 10
+  ILLUSIONER:
+    min: 5
+    max: 15
+  IRON_GOLEM:
+    min: 5
+    max: 20
+  LLAMA:
+    min: 0
+    max: 1
+  MAGMA_CUBE:
+    min: 3
+    max: 10
+  MULE:
+    min: 1
+    max: 5
+  MUSHROOM_COW:
+    min: 1
+    max: 5
+  OCELOT:
+    min: 1
+    max: 5
+  PANDA:
+    min: 1
+    max: 5
+  PARROT:
+    min: 1
+    max: 5
+  PHANTOM:
+    min: 4
+    max: 10
+  PIG:
+    min: 1
+    max: 5
+  PIGLIN:
+    min: 3
+    max: 10
+  PIGLIN_BRUTE:
+    min: 5
+    max: 15
+  PILLAGER:
+    min: 3
+    max: 10
+  POLAR_BEAR:
+    min: 2
+    max: 8
+  PUFFERFISH:
+    min: 1
+    max: 5
+  RABBIT:
+    min: 1
+    max: 5
+  RAVAGER:
+    min: 6
+    max: 20
+  SALMON:
+    min: 1
+    max: 5
+  SHEEP:
+    min: 1
+    max: 5
+  SHULKER:
+    min: 4
+    max: 12
+  SILVERFISH:
+    min: 2
+    max: 6
+  SKELETON:
+    min: 3
+    max: 10
+  SKELETON_HORSE:
+    min: 3
+    max: 10
+  SLIME:
+    min: 2
+    max: 8
+  SNOWMAN:
+    min: 1
+    max: 5
+  SPIDER:
+    min: 3
+    max: 10
+  SQUID:
+    min: 1
+    max: 5
+  STRAY:
+    min: 3
+    max: 10
+  STRIDER:
+    min: 1
+    max: 5
+  TADPOLE:
+    min: 1
+    max: 5
+  TRADER_LLAMA:
+    min: 1
+    max: 5
+  TRIDENT:
+    min: 4
+    max: 12
+  TROPICAL_FISH:
+    min: 1
+    max: 5
+  TURTLE:
+    min: 1
+    max: 5
+  VEX:
+    min: 5
+    max: 15
+  VILLAGER:
+    min: 1
+    max: 5
+  VINDICATOR:
+    min: 5
+    max: 15
+  WANDERING_TRADER:
+    min: 1
+    max: 5
+  WARDEN:
+    min: 400
+    max: 500
+  WITCH:
+    min: 3
+    max: 10
+  WITHER:
+    min: 10
+    max: 30
+  WITHER_SKELETON:
+    min: 4
+    max: 12
+  WOLF:
+    min: 1
+    max: 5
+  ZOGLIN:
+    min: 4
+    max: 12
+  ZOMBIE:
+    min: 3
+    max: 10
+  ZOMBIE_HORSE:
+    min: 3
+    max: 10
+  ZOMBIE_VILLAGER:
+    min: 3
+    max: 10
+  ZOMBIFIED_PIGLIN:
+    min: 3
+    max: 10

@@ -1,0 +1,83 @@
+tab:
+  default:
+    priority: 0
+    commands:
+      - /msg
+      - /tpayes
+      - /tpano
+      - /rangos
+      - /balance
+  sabio:
+    priority: 1
+    extends: default
+    commands:
+      - /home
+      - /pvp
+  hero:
+    priority: 2
+    extends: sabio
+    commands:
+      - /sethome
+      - /delhome
+      - /tpa
+  prins:
+    priority: 3
+    extends: hero
+    commands:
+      - /back
+      - /tpahere
+  king:
+    priority: 4
+    extends: prins
+    commands: []
+  ente:
+    priority: 5
+    extends: king
+    commands: []
+  kami:
+    priority: 6
+    extends: ente
+    commands:
+      - /anvil
+      - /enderchest
+  dev:
+    priority: 7
+    extends: kami
+    commands:
+      - /fly
+      - /tp
+  owner:
+    priority: 8
+    commands: []
+blocked_command_default_actions:
+  - 'message: &5&l[&8&lServer&5&l>> &8Comando desconocido.'
+  - 'playsound: BLOCK_NOTE_BLOCK_PLING;10;0.1'
+use_commands_as_whitelist: true
+is_network: false
+update_notify: true
+commands:
+  - /msg
+  - /home
+  - /sethome
+  - /delhome
+  - /tpa
+  - /tpano
+  - /tpayes
+  - /tpahere
+  - /fly
+  - /tp
+  - /anvil
+  - /enderchest
+  - /back
+  - /actp
+  - /pvp
+  - /rangos
+  - /balance
+custom_commands_actions:
+  example1:
+    commands:
+      - "/ver"
+      - "/version"
+      - "/about"
+    actions:
+      - "console_command: kick %player% You can't see the version of the server!"

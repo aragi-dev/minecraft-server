@@ -1,0 +1,266 @@
+name: '&f&l☈&8&l : &r&8Rangos'
+size: 45
+updateInterval: 1000
+items:
+  btn-0:
+    item:
+      material: BLACK_STAINED_GLASS_PANE
+      name: '&5&l[&8Server&5&l]'
+    slots:
+      - 0-9
+      - 11
+      - 13
+      - 15
+      - 17-29
+      - 31
+      - 33-43
+  btn-44:
+    slot: 44
+    closeInventory: true
+    item:
+      material: BARRIER
+      name: '&8&l[&c&lCerrar&8&l]'
+  btn-10:
+    slot: 10
+    view_requirement:
+      requirements:
+        - type: placeholder
+          placeholder: '%vault_eco_balance%'
+          value: '500'
+          action: 'SUPERIOR_OR_EQUAL'
+        - type: luckperm
+          group: "default"
+    update: true
+    updateMasterButton: true
+    refreshOnClick: true
+    consoleCommands:
+    - 'eco take %player% 500'
+    - 'lp user %player% parent set sabio'
+    messages:
+    - '&5&l[&8Server&5&l>> &r&8¡Felicidades! &7%player% &8ahora eres rango &l[&a&lSABIO&8&l].'
+    item:
+      material: CREEPER_BANNER_PATTERN
+      name: '&8&l[&a&lSABIO&8&l]'
+      lore: 
+        - '&8[&5&l🔽&r&8] &7Requiere'
+        - '   &8[&2&l+&r&8] &8500 &6₪'
+        - '   &8[&9&l=&r&8] No tener rango'
+        - '&8[&5&l🔽&r&8] &7Beneficios'
+        - '   &8[&2&l+&r&8] &8ir a tu cama &7/home'
+        - '   &8[&2&l+&r&8] &8desactivar combate &7/pvp'
+        - '&e¡Click para comprar!'
+    else:
+      item:
+        material: CREEPER_BANNER_PATTERN
+        name: '&8&l[&a&lSABIO&8&l]'
+        lore: 
+          - '&8[&5&l🔽&r&8] &7Requiere'
+          - '   &8[&2&l+&r&8] &8500 &6₪'
+          - '   &8[&9&l=&r&8] No tener rango'
+          - '&8[&5&l🔽&r&8] &7Beneficios'
+          - '   &8[&2&l+&r&8] &8Tp a cama &7/home'
+          - '   &8[&2&l+&r&8] &8Desactivar combate &7/pvp'
+          - '&c¡No comples con los requisitos!' 
+  btn-12:
+    slot: 12
+    view_requirement:
+      requirements:
+        - type: placeholder
+          placeholder: '%vault_eco_balance%'
+          value: '6000'
+          action: 'SUPERIOR_OR_EQUAL'
+        - type: luckperm
+          group: "sabio"
+    update: true
+    updateMasterButton: true
+    refreshOnClick: true
+    consoleCommands:
+    - 'eco take %player% 6000'
+    - 'lp user %player% parent set hero'
+    messages:
+    - '&5&l[&8Server&5&l>> &r&8¡Felicidades! &7%player% &8ahora eres rango &l[&9&lHERO&8&l].'
+    item:
+      material: SKULL_BANNER_PATTERN
+      name: '&8&l[&9&lHERO&8&l]'
+      lore: 
+        - '&8[&5&l🔽&r&8] &7Requiere'
+        - '   &8[&2&l+&r&8] &86000 &6₪'
+        - '   &8[&9&l=&r&8] ser &8&l[&a&lSABIO&8&l]'
+        - '&8[&5&l🔽&r&8] &7Beneficios'
+        - '   &8[&2&l+&r&8] &8Establecer lugares &7/sethome'
+        - '   &8[&2&l+&r&8] &8Teletransportarte &7/tpa'
+        - '&e¡Click para comprar!'
+    else:
+      item:
+        material: SKULL_BANNER_PATTERN
+        name: '&8&l[&9&lHERO&8&l]'
+        lore: 
+          - '&8[&5&l🔽&r&8] &7Requiere'
+          - '   &8[&2&l+&r&8] &86000 &6₪'
+          - '   &8[&9&l=&r&8] ser &8&l[&a&lSABIO&8&l]'
+          - '&8[&5&l🔽&r&8] &7Beneficios'
+          - '   &8[&2&l+&r&8] &8Establecer lugares &7/sethome'
+          - '   &8[&2&l+&r&8] &8Teletransportarte &7/tpa'
+          - '&c¡No comples con los requisitos!'
+  btn-14:
+    slot: 14
+    view_requirement:
+      requirements:
+        - type: placeholder
+          placeholder: '%vault_eco_balance%'
+          value: '9000'
+          action: 'SUPERIOR_OR_EQUAL'
+        - type: luckperm
+          group: "hero"
+    update: true
+    updateMasterButton: true
+    refreshOnClick: true
+    consoleCommands:
+    - 'eco take %player% 9000'
+    - 'lp user %player% parent set prins'
+    messages:
+    - '&5&l[&8Server&5&l>> &r&8¡Felicidades! &7%player% &8ahora eres rango &l[&6&lPRINS&8&l].'
+    item:
+      material: FLOW_BANNER_PATTERN
+      name: '&8&l[&6&lPRINS&8&l]'
+      lore: 
+        - '&8[&5&l🔽&r&8] &7Requiere'
+        - '   &8[&2&l+&r&8] &89000 &6₪'
+        - '   &8[&9&l=&r&8] ser &8&l[&9&lHERO&8&l]'
+        - '&8[&5&l🔽&r&8] &7Beneficios'
+        - '   &8[&2&l+&r&8] &8Bolquear cofre de muerte'
+        - '   &8[&2&l+&r&8] &8Acceso a &7/back'
+        - '   &8[&2&l+&r&8] &8Traer jugadores &7/tpahere'
+        - '&e¡Click para comprar!' 
+    else:
+      item:
+        material: FLOW_BANNER_PATTERN
+        name: '&8&l[&6&lPRINS&8&l]'
+        lore: 
+          - '&8[&5&l🔽&r&8] &7Requiere'
+          - '   &8[&2&l+&r&8] &89000 &6₪'
+          - '   &8[&9&l=&r&8] ser &8&l[&9&lHERO&8&l]'
+          - '&8[&5&l🔽&r&8] &7Beneficios'
+          - '   &8[&2&l+&r&8] &8Bolquear cofre de muerte'
+          - '   &8[&2&l+&r&8] &8Acceso a &7/back'
+          - '   &8[&2&l+&r&8] &8Traer jugadores &7/tpahere'
+          - '&c¡No comples con los requisitos!'
+  btn-16:
+    slot: 16
+    view_requirement:
+      requirements:
+        - type: placeholder
+          placeholder: '%vault_eco_balance%'
+          value: '12000'
+          action: 'SUPERIOR_OR_EQUAL'
+        - type: luckperm
+          group: "prins"
+    update: true
+    updateMasterButton: true
+    refreshOnClick: true
+    consoleCommands:
+    - 'eco take %player% 12000'
+    - 'lp user %player% parent set king'
+    messages:
+    - '&5&l[&8Server&5&l>> &r&8¡Felicidades! &7%player% &8ahora eres rango &l[&e&lKING&8&l].'
+    item:
+      material: FLOWER_BANNER_PATTERN
+      name: '&8&l[&e&lKING&8&l]'
+      lore: 
+        - '&8[&5&l🔽&r&8] &7Requiere'
+        - '   &8[&2&l+&r&8] &812000 &6₪'
+        - '   &8[&9&l=&r&8] ser &8&l[&6&lPRINS&8&l]'
+        - '&8[&5&l🔽&r&8] &7Beneficios'
+        - '   &8[&2&l+&r&8] &8Traer cofre de muerte'
+        - '&e¡Click para comprar!'
+    else:
+      item:
+        material: FLOWER_BANNER_PATTERN
+        name: '&8&l[&e&lKING&8&l]'
+        lore: 
+          - '&8[&5&l🔽&r&8] &7Requiere'
+          - '   &8[&2&l+&r&8] &812000 &6₪'
+          - '   &8[&9&l=&r&8] ser &8&l[&6&lPRINS&8&l]'
+          - '&8[&5&l🔽&r&8] &7Beneficios'
+          - '   &8[&2&l+&r&8] &8Traer cofre de muerte'
+          - '&c¡No comples con los requisitos!' 
+  btn-30:
+    slot: 30
+    view_requirement:
+      requirements:
+        - type: placeholder
+          placeholder: '%vault_eco_balance%'
+          value: '16000'
+          action: 'SUPERIOR_OR_EQUAL'
+        - type: luckperm
+          group: "king"
+    update: true
+    updateMasterButton: true
+    refreshOnClick: true
+    consoleCommands:
+    - 'eco take %player% 16000'
+    - 'lp user %player% parent set ente'
+    messages:
+    - '&5&l[&8Server&5&l>> &r&8¡Felicidades! &7%player% &8ahora eres rango &l[&7&lENTE&8&l].'
+    item:
+      material: GUSTER_BANNER_PATTERN
+      name: '&8&l[&7&lENTE&8&l]'
+      lore: 
+        - '&8[&5&l🔽&r&8] &7Requiere'
+        - '   &8[&2&l+&r&8] &816000 &6₪'
+        - '   &8[&9&l=&r&8] ser &8&l[&e&lKING&8&l]'
+        - '&8[&5&l🔽&r&8] &7Beneficios'
+        - '   &8[&2&l+&r&8] &8Minar spawners'
+        - '&e¡Click para comprar!'
+    else:
+      item:
+        material: GUSTER_BANNER_PATTERN
+        name: '&8&l[&7&lENTE&8&l]'
+        lore: 
+          - '&8[&5&l🔽&r&8] &7Requiere'
+          - '   &8[&2&l+&r&8] &816000 &6₪'
+          - '   &8[&9&l=&r&8] ser &8&l[&e&lKING&8&l]'
+          - '&8[&5&l🔽&r&8] &7Beneficios'
+          - '   &8[&2&l+&r&8] &8Minar spawners'
+          - '&c¡No comples con los requisitos!'
+  btn-32:
+    slot: 32
+    view_requirement:
+      requirements:
+        - type: placeholder
+          placeholder: '%vault_eco_balance%'
+          value: '20000'
+          action: 'SUPERIOR_OR_EQUAL'
+        - type: luckperm
+          group: "ente"
+    update: true
+    updateMasterButton: true
+    refreshOnClick: true
+    consoleCommands:
+    - 'eco take %player% 20000'
+    - 'lp user %player% parent set kami'
+    messages:
+    - '&5&l[&8Server&5&l>> &r&8¡Felicidades! &7%player% &8ahora eres rango &l[&5&lKAMI&8&l].'
+    item:
+      material: MOJANG_BANNER_PATTERN
+      name: '&8&l[&5&lKAMI&8&l]'
+      lore: 
+        - '&8[&5&l🔽&r&8] &7Requiere'
+        - '   &8[&2&l+&r&8] &820000 &6₪'
+        - '   &8[&9&l=&r&8] ser &8&l[&7&lENTE&8&l]'
+        - '&8[&5&l🔽&r&8] &7Beneficios'
+        - '   &8[&2&l+&r&8] &8Yunque portatil &7/anvil'
+        - '   &8[&2&l+&r&8] &8EnderChest portatil &7/enderchest'
+        - '&e¡Click para comprar!'
+    else:
+      item:
+        material: MOJANG_BANNER_PATTERN
+        name: '&8&l[&5&lKAMI&8&l]'
+        lore: 
+          - '&8[&5&l🔽&r&8] &7Requiere'
+          - '   &8[&2&l+&r&8] &820000 &6₪'
+          - '   &8[&9&l=&r&8] ser &8&l[&7&lENTE&8&l]'
+          - '&8[&5&l🔽&r&8] &7Beneficios'
+          - '   &8[&2&l+&r&8] &8Yunque portatil &7/anvil'
+          - '   &8[&2&l+&r&8] &8EnderChest portatil &7/enderchest'
+          - '&c¡No comples con los requisitos!'
