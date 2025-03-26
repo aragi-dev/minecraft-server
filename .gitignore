@@ -139,3 +139,17 @@ dist
 world
 world_nether
 world_the_end
+
+# not update files
+banned-ips.json
+banned-players.json
+commands.yml
+eula.txt
+help.yml
+LICENSE
+ops.json
+paper.jar
+permissions.yml
+usercache.json
+version_history.json
+whitelist.json
