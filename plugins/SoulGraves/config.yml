@@ -24,13 +24,13 @@ notify-radius: 128
 notify-owner-pickup: true
 
 # The percentage of the soul's XP to give to the owner of the soul when it is collected by the owner
-xp-percentage-owner: 0.5
+xp-percentage-owner: 1
 
 # The percentage of the soul's XP to give to a player who isn't the owner when the soul is collected by that player
-xp-percentage-others: 0.2
+xp-percentage-others: 0.9
 
 # The percentage of the soul's XP to drop when the soul bursts
-xp-percentage-burst: 0.2
+xp-percentage-burst: 0.8
 
 # Whether souls are only collectible by their owners
 owner-locked: false
