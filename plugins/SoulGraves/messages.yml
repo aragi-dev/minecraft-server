@@ -1,0 +1,14 @@
+# DO NOT EDIT file-version DIRECTLY
+file-version: 1
+
+# Message to send to the owner when their soul bursts
+soul-burst: <dark_purple><bold>[</bold></dark_purple><dark_gray><bold>Server</bold></dark_gray><dark_purple><bold>>></bold></dark_purple><dark_gray> <dark_gray>[</dark_gray><red>-</red><dark_gray>]</dark_gray> ¡Tu alma ha explotado!</dark_gray>
+# Message to send to the owner when their soul bursts and souls-drop-items is true
+soul-burst-drop-items: <dark_purple><bold>[</bold></dark_purple><dark_gray><bold>Server</bold></dark_gray><dark_purple><bold>>></bold></dark_purple><dark_gray> <dark_gray>[</dark_gray><red>-</red><dark_gray>]</dark_gray> tus cosas ya estan en el suelo</dark_gray>
+soul-burst-lose-items: <dark_purple><bold>[</bold></dark_purple><dark_gray><bold>Server</bold></dark_gray><dark_purple><bold>>></bold></dark_purple><dark_gray> <dark_gray>[</dark_gray><red>-</red><dark_gray>]</dark_gray> tus cosas fueron destuidas/dark_gray>
+# Message to send when a soul bursts nearby
+soul-burst-nearby: <dark_purple><bold>[</bold></dark_purple><dark_gray><bold>Server</bold></dark_gray><dark_purple><bold>>></bold></dark_purple><dark_gray> <dark_gray>[</dark_gray><gold>-</gold><dark_gray>]</dark_gray> Algien murio serca</dark_gray>
+# Message to send when a soul is collected
+soul-collect: <dark_purple><bold>[</bold></dark_purple><dark_gray><bold>Server</bold></dark_gray><dark_purple><bold>>></bold></dark_purple><dark_gray> <dark_gray>[</dark_gray><green>+</green><dark_gray>]</dark_gray> Has recogido tus cosas</dark_gray>
+# Message to send to the owner when another player has collected their soul
+soul-collect-other: <dark_purple><bold>[</bold></dark_purple><dark_gray><bold>Server</bold></dark_gray><dark_purple><bold>>></bold></dark_purple><dark_gray> <dark_gray>[</dark_gray><red>-</red><dark_gray>]</dark_gray> Otro Jugador a recogido tus cosas</dark_gray>

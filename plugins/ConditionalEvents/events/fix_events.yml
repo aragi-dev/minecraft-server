@@ -1,0 +1,27 @@
+Events:
+  event1:
+    type: player_join
+    conditions:
+    - '%player% == AragiSoul'
+    actions:
+      default:
+      - 'to_all: message: &e&l[ALERT] &f&lAragiSoul joined the game!'
+  event10:
+    type: player_damage
+    conditions:
+      - "%checkitem_mat:ENCHANTED_BOOK,custommodeldata:105% == yes"
+    actions:
+      default:
+        - 'console_command: lp user %player% permission set soulgraves.spawn false'
+  event11:
+    type: player_damage
+    conditions:
+      - "%checkitem_mat:ENCHANTED_BOOK,custommodeldata:105% != yes"
+    actions:
+      default:
+        - 'console_command: lp user %player% permission set soulgraves.spawn true'
+  event12:
+    type: player_respawn
+    actions:
+      default:
+        - 'console_command: lp user %player% permission set soulgraves.spawn true'
