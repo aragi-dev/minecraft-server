@@ -154,7 +154,7 @@ world_the_end
 /whitelist.json
 .console_history
 .paper-remapped/
-AdvancedTeleport/
+AdvancedTeleport/data.db
 Essentials/
 ItemEdit/
 LevelledMobs/
