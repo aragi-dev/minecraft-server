@@ -7,6 +7,11 @@ tab:
       - /tpano
       - /rangos
       - /balance
+      - /login
+      - /register
+      - /premium
+      - /cracked
+      - /confirmpremium
   sabio:
     priority: 1
     extends: default
@@ -73,6 +78,11 @@ commands:
   - /pvp
   - /rangos
   - /balance
+  - /login
+  - /register
+  - /premium
+  - /cracked
+  - /confirmpremium
 custom_commands_actions:
   example1:
     commands:
@@ -80,4 +90,4 @@ custom_commands_actions:
       - "/version"
       - "/about"
     actions:
-      - "console_command: kick %player% You can't see the version of the server!"
+      - "console_command: kick %player% no eso no."

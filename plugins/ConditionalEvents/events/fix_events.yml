@@ -1,11 +1,4 @@
 Events:
-  event1:
-    type: player_join
-    conditions:
-    - '%player% == AragiSoul'
-    actions:
-      default:
-      - 'to_all: message: &e&l[ALERT] &f&lAragiSoul joined the game!'
   event10:
     type: player_damage
     conditions:
