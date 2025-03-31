@@ -179,9 +179,13 @@ assign-groups-by-permissions: false
 # Warning! This is not sorting list and has nothing to do with sorting players in tablist!
 primary-group-finding-list:
   - Owner
-  - Admin
-  - Mod
-  - Helper
+  - dev
+  - kami
+  - ente
+  - king
+  - prins
+  - hero
+  - sabio
   - default
 
 # Refresh interval (in milliseconds) of:

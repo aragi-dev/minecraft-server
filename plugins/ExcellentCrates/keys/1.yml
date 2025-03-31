@@ -1,0 +1,13 @@
+Name: '&e&LLegendaria &8Key'
+Virtual: false
+Item:
+  Material: EYE_ARMOR_TRIM_SMITHING_TEMPLATE
+  Name: '&e&lLegendaria &8Key'
+  Lore:
+  - '&8Item requerido para abrir'
+  - '&8cajas &elegendarias'
+  Enchants:
+    infinity: 1
+  Item_Flags:
+  - HIDE_ENCHANTS
+  - HIDE_ADDITIONAL_TOOLTIP

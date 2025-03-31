@@ -1,0 +1,20 @@
+# Currently available:
+# - english: en_US
+# - spanish: es_ES
+locale: en_US
+
+# How many ticks it takes for the TNT
+# spawned by /td tnt to blow up
+tnt fuse ticks: 40
+
+# The speed at which /td launch
+# will launch the players at
+launch velocity: 20
+
+# How many wolves /td wolf
+# should spawn
+wolves: 3
+
+# Disable the update check on
+# plugin startup
+disable update check: false

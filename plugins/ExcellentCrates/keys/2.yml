@@ -1,0 +1,12 @@
+Name: 2 Key
+Virtual: false
+Item:
+  Material: TIDE_ARMOR_TRIM_SMITHING_TEMPLATE
+  Name: '&a&lLegendaria &8key'
+  Lore:
+  - '&8key para &2Armas'
+  Enchants:
+    infinity: 1
+  Item_Flags:
+  - HIDE_ENCHANTS
+  - HIDE_ADDITIONAL_TOOLTIP
