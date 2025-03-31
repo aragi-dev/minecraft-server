@@ -157,6 +157,9 @@ almacen
 .console_history
 .paper-remapped/
 plugins/AdvancedTeleport/data.db
+plugins/AdvancedTeleport/map-assets/
+plugins/AdvancedTeleport/guis.yml
+plugins/AdvancedTeleport/rtp-locations.csv
 plugins/Essentials/
 plugins/ItemEdit/
 plugins/LevelledMobs/
@@ -174,4 +177,12 @@ plugins/visual-crafting/
 plugins/WorldEdit/
 plugins/WorldGuard/
 plugins/zMenu/
-plugins/SkinsRestorer
+plugins/SkinsRestorer/
+plugins/.paper-remapped/
+plugins/AuthMe/
+plugins/AdvancedTeleport/.libs/
+plugins/LibreLogin/lib
+plugins/LibreLogin/user-data.db
+plugins/nightcore/
+plugins/StaffPlusPlus/
+plugins/ExcellentCrates/data.db
